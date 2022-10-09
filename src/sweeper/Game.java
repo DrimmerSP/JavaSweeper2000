@@ -97,7 +97,7 @@ public class Game {
         if (state == GameState.PLAYED){
             return false;
         }else {
-//            start();
+//            start();    //Убрал эту строку рестарта, чтоб результат оставался виден до ручного сброса прогресса(по СКМ).
             return true;
         }
     }
